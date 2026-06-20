@@ -1,0 +1,32 @@
+﻿# STM32CubeIDE build
+Debug/
+Release/
+.settings/
+.project
+.cproject
+.mxproject
+
+# CubeMX generated (regenerated from .ioc)
+Core/Src/stm32f4xx_hal_msp.c
+Core/Src/stm32f4xx_it.c
+Core/Src/system_stm32f4xx.c
+Core/Src/freertos.c
+Core/Inc/stm32f4xx_hal_conf.h
+Core/Inc/stm32f4xx_it.h
+Core/Inc/FreeRTOSConfig.h
+startup_stm32f407xx.s
+STM32F407VETx_FLASH.ld
+
+# Build outputs
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.ioc.bak
+
+# OS junk
+Thumbs.db
+Desktop.ini
